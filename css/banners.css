@@ -1,0 +1,63 @@
+.banner {
+  display: flex;
+  background-image: url("../images/background.png");
+  background-size: cover;
+  height: 600px;
+  align-items: center;
+}
+
+.banner-container {
+  color: white;
+  margin: 100px 250px 100px 190px;
+}
+
+.btn-treehouse {
+  color: white;
+  background: #02CC88;
+  padding: 16px 32px;
+  border-radius: 32px;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.container {
+  background-color: white;
+ }
+
+ .cards-container {
+  background-color: white;
+ }
+
+ .cards {
+  justify-content: space-around;
+  margin: 0 260px;
+  display: flex;
+ }
+
+ .card {
+  width: 220px;
+  height: 250px;
+  border: 1px solid white;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  margin: 0 0 30px 0;
+  text-align: center;
+  padding: 10px;
+ }
+
+ .footer {
+  background-color: #333333;
+  height: 216px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+
+ .footer-card {
+  text-align: centre;
+  font-size: 32px;
+  color: #00ff7f;
+  margin: 10px;
+  letter-spacing: 0.1em;
+ }
